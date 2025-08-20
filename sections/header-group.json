@@ -11,72 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "17556986658e34f4f3": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d70bc24_D4BpxA": {
-          "type": "ai_gen_block_d70bc24",
-          "settings": {
-            "title": "Catalogue",
-            "description": "<p>Discover our carefully curated collection of premium products.</p>",
-            "featured_collection": "",
-            "products_limit": 12,
-            "text_alignment": "center",
-            "card_text_alignment": "center",
-            "columns_mobile": "2",
-            "max_width": 1200,
-            "card_min_width": 280,
-            "section_padding": 60,
-            "header_spacing": 40,
-            "grid_gap": 30,
-            "grid_margin": 40,
-            "background_gradient": "radial-gradient(#fff, #cbb9cb)",
-            "title_color": "#333333",
-            "description_color": "#666666",
-            "card_background": "#ffffff",
-            "card_title_color": "#333333",
-            "card_description_color": "#666666",
-            "card_price_color": "#8b5a9b",
-            "title_size": 36,
-            "description_size": 16,
-            "card_title_size": 18,
-            "card_description_size": 14,
-            "card_price_size": 16,
-            "card_padding": 20,
-            "card_border_radius": 12,
-            "card_shadow_y": 4,
-            "card_shadow_blur": 12,
-            "card_shadow_opacity": 10,
-            "card_hover_lift": 3,
-            "image_height": 250,
-            "image_border_radius": 8,
-            "image_margin": 16,
-            "show_product_title": true,
-            "show_product_description": true,
-            "description_length": 100,
-            "show_product_price": true,
-            "show_view_button": true,
-            "button_text": "View Product",
-            "button_background": "#8b5a9b",
-            "button_hover_background": "#7a4d8a",
-            "button_text_color": "#ffffff",
-            "button_font_size": 14,
-            "button_padding_x": 20,
-            "button_padding_y": 10,
-            "button_border_radius": 6,
-            "title_margin": 16,
-            "card_title_margin": 12,
-            "card_description_margin": 12,
-            "card_price_margin": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d70bc24_D4BpxA"
-      ],
-      "settings": {}
-    },
     "17556957763f8e4e31": {
       "type": "_blocks",
       "blocks": {
@@ -156,12 +90,62 @@
         "ai_gen_block_ffe24b7_3pQd3J"
       ],
       "settings": {}
+    },
+    "1755699565173d78c2": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0b834ae_YUPwLa": {
+          "type": "ai_gen_block_0b834ae",
+          "settings": {
+            "title": "Our Category",
+            "subtitle": "",
+            "section_padding": 60,
+            "header_spacing": 40,
+            "grid_spacing": 40,
+            "grid_gap": 24,
+            "background_color": "#ffffff",
+            "title_color": "#2c2c2c",
+            "subtitle_color": "#666666",
+            "card_background": "#ffffff",
+            "category_name_color": "#2c2c2c",
+            "category_description_color": "#666666",
+            "title_size": 32,
+            "subtitle_size": 16,
+            "category_name_size": 18,
+            "category_description_size": 14,
+            "card_radius": 24,
+            "category_1_collection": "male",
+            "category_1_name": "Men",
+            "category_1_description": "",
+            "category_2_collection": "female",
+            "category_2_name": "Women",
+            "category_2_description": "",
+            "category_3_collection": "",
+            "category_3_name": "",
+            "category_3_description": "",
+            "category_4_collection": "",
+            "category_4_name": "",
+            "category_4_description": "",
+            "category_5_collection": "",
+            "category_5_name": "",
+            "category_5_description": "",
+            "category_6_collection": "",
+            "category_6_name": "",
+            "category_6_description": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0b834ae_YUPwLa"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "17556957763f8e4e31",
     "header",
     "1755696844d21ab643",
-    "17556986658e34f4f3"
+    "1755699565173d78c2"
   ]
 }
