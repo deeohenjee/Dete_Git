@@ -11,6 +11,72 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "17556986658e34f4f3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d70bc24_D4BpxA": {
+          "type": "ai_gen_block_d70bc24",
+          "settings": {
+            "title": "Catalogue",
+            "description": "<p>Discover our carefully curated collection of premium products.</p>",
+            "featured_collection": "",
+            "products_limit": 12,
+            "text_alignment": "center",
+            "card_text_alignment": "center",
+            "columns_mobile": "2",
+            "max_width": 1200,
+            "card_min_width": 280,
+            "section_padding": 60,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "grid_margin": 40,
+            "background_gradient": "radial-gradient(#fff, #cbb9cb)",
+            "title_color": "#333333",
+            "description_color": "#666666",
+            "card_background": "#ffffff",
+            "card_title_color": "#333333",
+            "card_description_color": "#666666",
+            "card_price_color": "#8b5a9b",
+            "title_size": 36,
+            "description_size": 16,
+            "card_title_size": 18,
+            "card_description_size": 14,
+            "card_price_size": 16,
+            "card_padding": 20,
+            "card_border_radius": 12,
+            "card_shadow_y": 4,
+            "card_shadow_blur": 12,
+            "card_shadow_opacity": 10,
+            "card_hover_lift": 3,
+            "image_height": 250,
+            "image_border_radius": 8,
+            "image_margin": 16,
+            "show_product_title": true,
+            "show_product_description": true,
+            "description_length": 100,
+            "show_product_price": true,
+            "show_view_button": true,
+            "button_text": "View Product",
+            "button_background": "#8b5a9b",
+            "button_hover_background": "#7a4d8a",
+            "button_text_color": "#ffffff",
+            "button_font_size": 14,
+            "button_padding_x": 20,
+            "button_padding_y": 10,
+            "button_border_radius": 6,
+            "title_margin": 16,
+            "card_title_margin": 12,
+            "card_description_margin": 12,
+            "card_price_margin": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d70bc24_D4BpxA"
+      ],
+      "settings": {}
+    },
     "17556957763f8e4e31": {
       "type": "_blocks",
       "blocks": {
@@ -39,8 +105,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".site-header__menu {text-align: c;}",
-        ".site-header__menu li {display: inline-block; margin: 0 15px;}"
+        ".menu-drawer__menu {text-align: right;}",
+        ".menu-drawer__menu {display: inline-block; margin: 0 15px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -58,10 +124,44 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
+    },
+    "1755696844d21ab643": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_ffe24b7_3pQd3J": {
+          "type": "ai_gen_block_ffe24b7",
+          "settings": {
+            "heading": "<p>Clean designs made to move with your life</p>",
+            "subtext": "<p>Our philosophy centers around creating timeless pieces that seamlessly integrate into your daily routine, combining functionality with aesthetic appeal.</p>",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "logo": "shopify://shop_images/IMG_4748.png",
+            "heading_color": "#000000",
+            "subtext_color": "#666666",
+            "button_color": "#ffffff",
+            "button_hover_color": "#f5f5f5",
+            "button_text_color": "#000000",
+            "section_padding": 80,
+            "min_height": 650,
+            "heading_size": 48,
+            "subtext_size": 18,
+            "button_text_size": 17,
+            "button_border_radius": 8,
+            "logo_max_height": 350
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_ffe24b7_3pQd3J"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "17556957763f8e4e31",
-    "header"
+    "header",
+    "1755696844d21ab643",
+    "17556986658e34f4f3"
   ]
 }
