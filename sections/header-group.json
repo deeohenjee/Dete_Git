@@ -11,41 +11,41 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "1755694179da4c9818": {
+    "17556957763f8e4e31": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_ffd7600_8WBjWp": {
-          "type": "ai_gen_block_ffd7600",
+        "ai_gen_block_0c1d3d1_UqyGVh": {
+          "type": "ai_gen_block_0c1d3d1",
           "settings": {
-            "announcement_text": "<p>Welcome To Our Store</p>",
-            "link_text": "",
-            "link_url": "",
-            "show_close_button": true,
-            "text_alignment": "center",
-            "font_size": 16,
-            "mobile_font_size": 9,
-            "font_weight": "700",
-            "padding": 4,
-            "mobile_padding": 3,
+            "announcement_text": "Welcome To Our Store",
+            "link": "",
             "background_color": "#bfa14a",
-            "text_color": "#000000",
-            "link_color": "#bfa14a",
-            "link_hover_color": "#bfa14a"
+            "use_gradient": true,
+            "gradient_color": "#bfa14a",
+            "text_color": "#ffffff",
+            "font_size": 16,
+            "font_weight": "600",
+            "padding": 12,
+            "border_radius": 0
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_ffd7600_8WBjWp"
+        "ai_gen_block_0c1d3d1_UqyGVh"
       ],
       "settings": {}
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".site-header__menu {text-align: c;}",
+        ".site-header__menu li {display: inline-block; margin: 0 15px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
-        "menu": "",
+        "menu": "menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
@@ -55,13 +55,13 @@
         "enable_language_selector": true,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
-    "1755694179da4c9818",
+    "17556957763f8e4e31",
     "header"
   ]
 }
